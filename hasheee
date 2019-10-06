@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hasith</title>
+</head>
+<body>
+	<script type="text/javascript">
+		
+var username =prompt("Enater your name","");
+var marks = prompt("Enter your marks","");
+
+if (marks<60)
+{
+	document.write("username:"+username+"<br>"+"result: FAIL");
+}
+else
+{
+	document.write("username:"+username+"<br>"+"result PASS");
+}
+document.write("<br>");
+document.write("<br>"+"refresh to check the result");
+
+
+	</script>
+
+</body>
+</html>
